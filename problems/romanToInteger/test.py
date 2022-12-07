@@ -4,9 +4,10 @@ import Solution
 def main():
     test = Solution.Solution()
 
-    result = test.romanToInt('IV')
+    NUM = 'IMLXICV'
+    result = test.romanToInt(NUM)
 
-    print("\nThe decimal value of this Roman Numeral is: ", result)
+    print(f"\nThe decimal value of {NUM} Roman Numeral is: ", result)
 
 
 if __name__ == '__main__':
